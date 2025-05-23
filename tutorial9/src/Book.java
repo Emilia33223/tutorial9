@@ -31,4 +31,19 @@ public class Book implements MediaItem, Rentable{
     static boolean isAvailable(boolean isAvailable) {
         return isAvailable;
     }
+
+    @Override
+    public boolean isAvailable() {
+        return false;
+    }
+
+    @Override
+    public boolean rent() {
+        return false;
+    }
+
+    @Override
+    public void returnItem() {
+
+    }
 }

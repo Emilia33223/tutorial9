@@ -6,7 +6,7 @@ public class Main {
 // Create and test a book
         Book book1 = new Book("The Great Gatsby", "F. Scott Fitzgerald" , 1925, "978-0-7432-7356-5");
                 System.out.println(book1.getDisplayString());
-        System.out.println("Available: " + book1.isAvailable();
+        System.out.println("Available: " + book1.isAvailable());
 // Rent the book
         if (book1.rent()) {
             System.out.println("Book rented successfully!");
@@ -34,5 +34,5 @@ public class Main {
 
 
 
-}
+
 
