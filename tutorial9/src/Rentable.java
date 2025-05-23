@@ -4,4 +4,10 @@ public interface Rentable {
     static double calculateLateFee(int daysLate){
         return daysLate * 0.5;
     }
+
+    boolean isAvailable();
+    boolean rent();
+    void returnItem();
+
+
 }

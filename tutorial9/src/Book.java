@@ -1,4 +1,4 @@
-public class Book implements MediaItem {
+public class Book implements MediaItem, Rentable{
     private String title;
     private String author;
     private int year;
@@ -24,7 +24,7 @@ public class Book implements MediaItem {
     }
 
     @Override
-    public String getFormattedString() {
+    public String getDisplayString() {
         return "Title: " + title + " Author: " + author + " Year: " + year;
     }
 
